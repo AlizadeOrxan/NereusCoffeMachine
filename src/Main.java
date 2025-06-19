@@ -10,7 +10,8 @@ public class Main {
         // BUG ALERT! 🐛 The coffee machine is misbehaving!
         // Fix the conditions so it works properly
 
-        if (hasMoney == true) { // Problem 1: Assignment instead of comparison
+        // Problem 1: Assignment instead of comparison
+        if (hasMoney = true) { 
             System.out.println("💸 Insert coins, you cheapskate!");
             // Problem 2: Wrong temperature check
         } else if (temperature < 50) {
