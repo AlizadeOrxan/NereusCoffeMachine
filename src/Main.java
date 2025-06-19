@@ -11,7 +11,7 @@ public class Main {
         // Fix the conditions so it works properly
 
         // Problem 1: Assignment instead of comparison
-        if (hasMoney = true) { 
+        if (hasMoney != true) { 
             System.out.println("💸 Insert coins, you cheapskate!");
             // Problem 2: Wrong temperature check
         } else if (temperature < 50) {
